@@ -1,0 +1,15 @@
+{
+  "name": "tsk",
+  "version": "0.0.0-alpha",
+  "description": "😑 A minimal task manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "omrilotan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.11"
+  },
+  "private": true
+}
