@@ -6,6 +6,7 @@ let win = null;
 app
 	.on('ready', () => {
 		win = new BrowserWindow({
+			nodeIntegration: true,
 			width: 800,
 			height: 600,
 			titleBarStyle: 'hidden',

@@ -4,12 +4,25 @@
   "description": "😑 A minimal task manager",
   "main": "main.js",
   "scripts": {
+  	"build": "webpack",
     "start": "electron ."
   },
   "author": "omrilotan",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.11"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "electron": "^4.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   },
   "private": true
 }
